@@ -86,7 +86,8 @@
 .title {
   background-color: #2e2f42;
   padding: 188px 0;
-  
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people_office_1.jpg");
+  background-size: cover;
 }
 .title-head {
   font-size: 56px;
@@ -110,7 +111,10 @@
 .studio_li {
   width: calc((100% - 72px) / 4);
 }
-
+.studio-svgs {
+  justify-content: center;
+  display: flex;
+}
 .studio-container {
   display: flex;
   align-items: center;
@@ -164,7 +168,10 @@
   text-align: center;
   
 }
-
+.contacts-svgs {
+  display: flex;
+  gap: 24px;
+}
 
 .contact_list {
   display: flex;
@@ -189,6 +196,17 @@
 }
 .team_list {
   background-color: #ffffff;
+}
+
+.last-section-menu {
+  display: flex;
+}
+.last-head {
+  text-align: center;
+}
+.last-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 /* General */
 .logo {
