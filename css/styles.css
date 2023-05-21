@@ -204,6 +204,7 @@
   letter-spacing: 0.02em;
   color: var(--paragraph-color); 
   text-align: center;
+  margin-bottom: 8px;
 }
 .contacts-svgs {
   display: flex;
